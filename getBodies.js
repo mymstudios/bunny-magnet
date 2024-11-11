@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import { GLTFLoader } from 'jsm/loaders/GLTFLoader.js';
+import { GLTFLoader } from 'jsm/examples/jsm/loaders/GLTFLoader.js';
 
 const sceneMiddle = new THREE.Vector3(0, 0, 0);
 const loader = new GLTFLoader();
