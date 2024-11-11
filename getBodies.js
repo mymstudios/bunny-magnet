@@ -1,5 +1,5 @@
 import * as THREE from 'https://cdn.skypack.dev/three';
-import { GLTFLoader } from '../node_modules/three/examples/jsm/loaders/GLTFLoader.js';
+import { GLTFLoader } from 'https://cdn.skypack.dev/three/examples/jsm/loaders/GLTFLoader.js';
 
 const sceneMiddle = new THREE.Vector3(0, 0, 0);
 const loader = new GLTFLoader();
