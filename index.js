@@ -1,4 +1,4 @@
-import * as THREE from "three";
+import * as THREE from "../node_modules/three/build/three.module.js";
 import { getBody, getMouseBall } from "./getBodies.js";
 import RAPIER from 'https://cdn.skypack.dev/@dimforge/rapier3d-compat@0.11.2';
 import { EffectComposer } from "jsm/postprocessing/EffectComposer.js";
