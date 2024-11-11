@@ -20,7 +20,7 @@ function getBody(RAPIER, world) {
 
     // 3D Model
     let mesh = new THREE.Group(); // Temporary empty group; model loads async
-    loader.load('../assets/rabbit 1k.glb', (gltf) => {
+    loader.load('/rabbit 1k.glb', (gltf) => {
         mesh.add(gltf.scene);
         gltf.scene.scale.set(20, 20, 20); // Scale model to fit each body’s size
     });
